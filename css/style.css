@@ -1,0 +1,343 @@
+* {
+    font-family: "Poppins", sans-serif;
+}
+
+.container-nav {
+    margin-top: 65px;
+    display: flex;
+    justify-content: space-around;
+
+    margin-bottom: 100px;
+}
+.nav-btn {
+    width: 146px;
+    height: 40px;
+    background-color: rgba(255, 153, 0, 1);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.nav-btn:hover {
+    background-color: orange;
+    opacity: 0.5;
+}
+a.nav-link {
+    color: #263640;
+}
+.container-ingenieur {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 50px;
+}
+.container-left-ingeniur {
+    max-width: 470px;
+}
+
+.Ingenieur {
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: rgba(146, 154, 159, 1);
+    text-transform: uppercase;
+}
+.Ingenieurbüro {
+    font-size: 32px;
+    color: rgba(38, 54, 64, 1);
+    margin-bottom: 15px;
+}
+
+.Wenn {
+    font-size: 16px;
+    font-weight: 500;
+    color: rgba(146, 154, 159, 1);
+}
+.ihr-btn {
+    width: 209px;
+    height: 40px;
+    cursor: pointer;
+    background-color: rgba(255, 153, 0, 1);
+    color: white;
+    border: none;
+    font-weight: 500;
+}
+.container-unsere {
+    margin: 0 50px;
+    max-width: 520px;
+}
+.unsere-h4 {
+    font-size: 24px;
+    font-weight: 700;
+    color: rgba(38, 54, 64, 1);
+    margin-top: 16px;
+}
+.unsere-p {
+    font-size: 16px;
+    color: rgba(146, 154, 159, 1);
+    line-height: 2;
+    margin-bottom: 80px;
+}
+.container-studien {
+    display: flex;
+    margin: 0 50px;
+    justify-content: space-between;
+    margin-bottom: 170px;
+}
+.container-conzepte,
+.container-verkeh,
+.container-entwur {
+    max-width: 312px;
+}
+.img-studien {
+    max-width: 312px;
+    margin-bottom: 25px;
+}
+.studien-h4 {
+    font-size: 20px;
+    font-weight: 500;
+    color: rgba(38, 54, 64, 1);
+    margin-bottom: 24px;
+}
+.studien-p {
+    font-size: 16px;
+    color: rgba(146, 154, 159, 1);
+    margin-bottom: 25px;
+}
+.studien-pp {
+    font-size: 16px;
+    font-weight: 500;
+    color: rgba(255, 153, 0, 1);
+}
+.container-image {
+    position: relative;
+    width: 100%;
+}
+.image-vector {
+    position: absolute;
+}
+
+.image-vector {
+    right: 50px;
+    z-index: 10;
+    top: 100px;
+}
+.container-vect {
+    position: relative;
+    margin-bottom: 250px;
+}
+.text-vect {
+    position: absolute;
+    max-width: 495px;
+    left: 50px;
+    top: 100px;
+}
+.text-vect-p {
+    font-size: 14px;
+    color: rgba(146, 154, 159, 1);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.text-vect-h4 {
+    font-size: 32px;
+    color: rgba(255, 255, 255, 1);
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+.text-vect-pp {
+    font-size: 16px;
+    color: rgba(255, 255, 255, 1);
+    margin-bottom: 55px;
+}
+.line {
+    border: 1px solid rgba(255, 255, 255, 1);
+    opacity: 20%;
+    margin-bottom: 25px;
+}
+.text-vect-vect {
+    color: rgba(255, 255, 255, 1);
+    font-weight: 500;
+}
+
+.container-wissens {
+    display: flex;
+    margin: 0 50px;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 80px;
+}
+.container-flex {
+    max-width: 488px;
+}
+.wissns-h4 {
+    font-size: 32px;
+    font-weight: bold;
+    color: rgba(38, 54, 64, 1);
+    margin-bottom: 16px;
+}
+.wissns-p {
+    color: rgba(146, 154, 159, 1);
+}
+.wissen-btn {
+    width: 153px;
+    height: 40px;
+    background-color: rgba(255, 153, 0, 1);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.wissen-btn:hover {
+    opacity: 0.5;
+}
+.unsere {
+    color: rgba(146, 154, 159, 1);
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-left: 50px;
+    margin-bottom: 32px;
+}
+.container-sed {
+    margin: 0 50px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 323px;
+}
+.container-sed-one,
+.container-sed-two,
+.container-sed-three {
+    max-width: 361px;
+}
+.sed-h4 {
+    font-size: 20px;
+    font-weight: 500;
+    color: rgba(38, 54, 64, 1);
+    margin-bottom: 20px;
+}
+.sed-p {
+    color: rgba(146, 154, 159, 1);
+}
+.sed-pp {
+    color: rgba(255, 153, 0, 1);
+    font-weight: 500;
+}
+.container-bewirb {
+    position: relative;
+}
+.bewirb-text {
+    max-width: 328px;
+    margin-left: 50px;
+    margin-top: 100px;
+}
+.dewirb {
+    position: absolute;
+    bottom: 0;
+    right: 50px;
+    z-index: -1;
+}
+.dewirb-text-p {
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: rgba(146, 154, 159, 1);
+}
+.dewirb-text-h4 {
+    font-size: 32px;
+    color: rgba(38, 54, 64, 1);
+    margin-bottom: 24px;
+}
+.dewirb-text-pp {
+    color: rgba(38, 54, 64, 0.8);
+    margin-bottom: 32px;
+}
+.dewirb-btn {
+    width: 135px;
+    height: 40px;
+    background-color: rgba(255, 153, 0, 1);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+footer {
+    margin-top: 100px;
+    background-color: rgba(38, 54, 64, 1);
+    width: 100%;
+}
+.container-background-text {
+    margin: 0 50px;
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+.ges-logo {
+    width: 135px;
+    height: 40px;
+}
+.ges-h5 {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 1);
+}
+.ges-p {
+    color: rgba(255, 255, 255, 1);
+}
+.line-ges {
+    border: 1px solid rgba(255, 255, 255, 1);
+    opacity: 20%;
+    margin: 0 50px;
+    margin-bottom: 40px;
+}
+.container-ppp {
+    display: flex;
+    margin: 0 50px;
+}
+.cont-ppp {
+    color: rgba(255, 255, 255, 1);
+    margin-right: 8px;
+    font-weight: 400;
+    opacity: 20%;
+}
+@media (max-width: 768px) {
+    .image-vector {
+        display: none;
+    }
+    .image1 {
+        display: none;
+    }
+    .container-vect {
+        overflow: hidden;
+    }
+    .container-studien {
+        flex-direction: column;
+        align-items: center;
+    }
+    .container-ingenieur {
+        justify-content: center;
+    }
+    .container-ingenieur {
+        margin-bottom: 40px;
+    }
+
+    .dewirb {
+        opacity: 0.7;
+    }
+    .wissen-btn {
+        display: none;
+    }
+    .container-sed {
+        flex-direction: column;
+    }
+}
+@media (max-width: 425px) {
+    .container-nav {
+        margin-left: 15px;
+    }
+    .nav-btn {
+        display: none;
+    }
+    .nav {
+        flex-direction: column;
+    }
+    .container-background-text {
+        display: block;
+    }
+    .ges-logo {
+        margin-bottom: 20px;
+    }
+}
